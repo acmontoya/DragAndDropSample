@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp" >
+
+
+    <TextView
+        android:id="@+id/option_1"
+        android:layout_width="fill_parent"
+        android:layout_margin="5dp"
+        android:background="@drawable/bandage"
+        android:gravity="center"
+        android:text="Bandage "
+        android:textStyle="bold"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/option_2"
+        android:layout_width="fill_parent"
+        android:layout_margin="5dp"
+        android:background="@drawable/ice"
+        android:gravity="center"
+        android:text="Ice "
+        android:textStyle="bold"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/option_3"
+        android:layout_width="fill_parent"
+        android:layout_margin="5dp"
+        android:background="@drawable/betadine"
+        android:gravity="center"
+        android:text="Plaster "
+        android:textStyle="bold"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/choice_1"
+        android:layout_width="fill_parent"
+        android:layout_margin="5dp"
+        android:background="@drawable/fracture"
+        android:gravity="center"
+        android:text="Fracture "
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/choice_2"
+        android:layout_width="fill_parent"
+        android:layout_margin="5dp"
+        android:background="@drawable/pasa"
+        android:gravity="center"
+        android:text="Bruise "
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/choice_3"
+        android:layout_width="fill_parent"
+        android:layout_margin="5dp"
+        android:background="@drawable/laceration"
+        android:gravity="center"
+        android:text="Laceration "
+        android:layout_height="80dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:onClick="reset"/>
+
+</LinearLayout>
